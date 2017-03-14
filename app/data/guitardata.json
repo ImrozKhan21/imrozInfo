@@ -1,0 +1,61 @@
+{
+    "allProducts": [
+        {
+            "product_discription": "This the drafts page. Saving the data of the user and landing them to this page when they make a save or come for the fist time to show them their existing drafts which they can open or delete, includes multiple service calls.",
+            "shipping details": "charges for shipping $20",
+            "custmer_reviews": "REST API, SASS, FlexBox, AJAX, BOOTSRAP, Jquery, BackboneJS, RequreJS, Lodash ",
+            "price": "I make service calls to get draft list and another to get drafts details when user selects particular one and details of user will be prepopulated.",
+            "image": "../images/Gui1.jpg",
+            "stock availability": "true",
+            "no of items": "10"
+        },
+        {
+            "product_discription": "Creating a typeahead component in which you can search for clients, the list of clients come from service and are displayed in this contact picker.",
+            "shipping details": "charges for shipping $25",
+            "custmer_reviews": "Typeahaead, ReactJS, SASS, AJAX, BackboneJS, RequreJS, Lodash",
+            "price": "",
+            "image": "../images/Gui2.jpg",
+            "stock availability": "true",
+            "no of items": "14"
+        },
+        {
+            "product_discription": "Using a BootStrapDialog which itself gives various unique defects according to viewports and devices. Debugging and resolving all the device specific issues related to bootstrap modal",
+            "shipping details": "charges for shipping $18",
+            "custmer_reviews": "BootStrap dialog, Bootstrap, FlexBox ",
+            "price": "$179.99",
+            "image": "../images/Gui3.jpg",
+            "stock availability": "true",
+            "no of items": "14"
+        },
+        {
+            "product_discription": "MultiSelect component: Created a raw multiselect component all by myself without using any library but JavaScript. You can search, filter, add and delete. ",
+            "shipping details": "charges for shipping $20",
+            "custmer_reviews": "BackboneJS, Jquery, SASS, RequreJS, Lodash",
+            "price": "$150.00",
+            "image": "../images/Gui4.jpg",
+            "stock availability": "true",
+            "no of items": "10"
+        },
+        {
+          "product_discription": "MultiSelect component: Added selection comes on right in larger viewport and on top in smaller viewports, you can delete them and put them back in list. ",
+          "shipping details": "charges for shipping $20",
+          "custmer_reviews": "BackboneJS, Jquery, SASS, RequreJS, Lodash",
+          "price": "$150.00",
+          "image": "../images/Gui5.jpg",
+          "stock availability": "true",
+          "no of items": "10"
+        },
+        {
+            "product_discription": "Input fields, Dropdowns, Radio buttons, CheckBox, OptGroup, Accordions all were made as seperate component and used in various views. ",
+            "shipping details": "charges for shipping $20",
+            "custmer_reviews": "Grunt, RequireJS, ReactJS, BackboneJS ",
+            "price": "$419.99",
+            "image": "../images/Gui6.jpg",
+            "stock availability": "true",
+            "no of items": "12"
+        }
+
+    ]
+
+}
+

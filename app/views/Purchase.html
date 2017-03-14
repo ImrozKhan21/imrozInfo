@@ -1,0 +1,160 @@
+<div class="container">
+  <div id="purchasePanel" class="panel panel-warning">
+    <div class="panel-body" style="text-align: center">Purchase your guitar! Fill in your card details</div>
+  </div>
+  <div class="row" id="puInfo">
+    <div class="col-sm-6"><img class="myImg" src={{myImg}} alt="Flower" height="450px" width="550px">
+    </div>
+    <div class="col-sm-6">
+      <div class="panel">{{descp}}</div>
+    </div>
+  </div>
+  <br>
+
+  <div>
+    <div id="bgCard" class="row panel panel-primary">
+      <div class="col-md-6 col-md-offset-3 ">
+        <div class="row">
+          <div class="col-sm-12 col-md-12">
+            <form class="form-horizontal" id="myForm">
+              <div class="form-group">
+                <label class="control-label">
+                  Card Holder's Name
+                </label>
+
+                <div class="controls">
+                  <input type="text" name="name" class="form-control" pattern="\w+ \w+.*"
+                         title="Fill your first and last name" required="">
+                </div>
+              </div>
+
+              <div class="form-group">
+
+                <div class="controls">
+                  <div class="row">
+                    <div class="col-sm-8 col-xs-8 col-md-8">
+                      <label class="control-label">
+                        Card Number
+                      </label>
+                      <input id="card_number" name="card_number" type="text" placeholder="Card Number"
+                             class="form-control input-md">
+
+                    </div>
+                    <div class="col-sm-4 col-xs-4 col-md-4">
+                      <label class="control-label">
+                        Card CVV
+                      </label>
+                      <input type="text" name="security_code" class="form-control" autocomplete="off" maxlength="3"
+                             pattern="\d{3}" title="Three digits at back of your card" required="">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+
+                <div class="controls">
+                  <div class="row">
+                    <div class="col-sm-6 col-xs-6 col-md-6">
+                      <label class="control-label">
+                        Card Expiry Month
+                      </label>
+                      <select id="expirymonth" name="expirymonth" class="form-control">
+                        <option value="01">
+                          january
+                        </option>
+                        <option value="02">
+                          february
+                        </option>
+                        <option value="03">
+                          march
+                        </option>
+                        <option value="04">
+                          April
+                        </option>
+                        <option value="05">
+                          May
+                        </option>
+                        <option value="06">
+                          June
+                        </option>
+                        <option value="07">
+                          July
+                        </option>
+                        <option value="08">
+                          August
+                        </option>
+                        <option value="09">
+                          September
+                        </option>
+                        <option value="10">
+                          October
+                        </option>
+                        <option value="11">
+                          November
+                        </option>
+                        <option value="12">
+                          December
+                        </option>
+                      </select>
+
+                    </div>
+                    <div class="col-sm-6 col-xs-6 col-md-6">
+                      <label class="control-label">
+                        Card Expiry Year
+                      </label>
+                      <input id="expiryyear" name="expiryyear" type="text" placeholder="Year eg 2014"
+                             class="form-control input-md" required="">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="controls">
+                  <div class="row">
+                    <div class="col-sm-6 col-xs-6 col-md-6">
+                      <label class="control-label">
+                        Address
+                      </label>
+                      <input name="address1" type="text" class="form-control" required="">
+                      <input id="hidden_paymentid" name="account_number" type="hidden" value="">
+                      <input name="cash_amount" id="hiddencashamount" type="hidden" value="">
+                    </div>
+                    <div class="col-sm-6 col-xs-6 col-md-6">
+                      <label class="control-label">
+                        ZIP
+                      </label>
+                      <input type="text" name="zip" class="form-control" autocomplete="off" required="">
+                    </div>
+                    <div class="col-sm-6 col-xs-6 col-md-6">
+                      <label class="control-label">
+                        State/Province
+                      </label>
+                      <input type="text" name="state" class="form-control" autocomplete="off" required="">
+                    </div>
+                    <div class="col-sm-6 col-xs-6 col-md-6">
+                      <label class="control-label">
+                        Country
+                      </label>
+                      <input type="text" class="form-control" autocomplete="off" name="country" required="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="form-actions">
+                <button id="submitButton" class="btn btn-block btn-primary">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

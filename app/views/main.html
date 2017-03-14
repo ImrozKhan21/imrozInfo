@@ -1,0 +1,77 @@
+<br>
+<h1 id="headcenter"><p class="bg-info">'Welcome to my Project'</p></h1>
+
+<div class="container-fluid">
+<!--  <img id="seedha" src="http://www.guitarfetish.com/assets/images/Xaviere_Banner.jpg">-->
+  <div class="row">
+        <div class="col-sm-2">
+          <button type="button" class="btn btn-info" ng-click="prev()">Prev</button>
+        </div>
+        <div class="col-sm-8 ">
+            <img class="myImg" src={{myImg}} alt="Coming soon" height="450px" width="700px">
+        </div>
+        <div class="col-sm-2">
+            <button type="button" class="btn btn-info" ng-click="next()">Next</button>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <br>
+
+
+      <div class="panel panel-success">
+            <div class="panel-heading"><b>Step details</b></div>
+            <div class="panel-body">{{descp}}</div>
+        </div>
+    </div>
+
+
+    <br>
+
+    <div class="row">
+        <div class="col-sm-4 panel panel-success" id="incme2">
+           <!-- <div class="row">
+                <div class="panel-heading"><b>Brief: {{price}}</b></div>
+            </div>-->
+            <div class="row">
+                <div class="panel panel-success" id="noborder">
+                    <div class="panel-heading"><b></b>Technologies used</div>
+                    <div class="panel-body">{{review}}</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4 panel panel-success" id="incme">
+            <form role="form">
+                <div class="form-group">
+                    <div class="panel-heading"><b>Further questions about me?</b></div>
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="rev">
+                    Your Question <br><textarea rows="4" class="form-control" ng-model="info1"
+                                              style="color: #111111"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-default" ng-click="submit(); more(); more1()"><span style="color: white">Submit</span>
+                </button>
+            </form>
+        </div>
+
+        <div class="col-sm-4 panel panel-success" id="incme1">
+            <div class="rev">
+                <div class="panel-heading" id="changeMe"><b><lo>{{man1}}</lo></b></div>
+                <br><br><br><div class="form-control" ><span style= "overflow: hidden">{{info2}}</span></div>
+                <add>{{man}}</add>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+

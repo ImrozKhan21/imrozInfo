@@ -1,0 +1,41 @@
+.put-me-down{
+  position: relative;
+  top:50px;
+  height:800px;
+  width:100%;
+}
+padding{
+  padding: 10px;
+}
+
+.thumbnail-override{
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 350px;
+  height: 220px;
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+.thumbnail-override:hover{
+  cursor: pointer;
+  -webkit-transform:scale(1.25); /* Safari and Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  -ms-transform:scale(1.25); /* IE 9 */
+  -o-transform:scale(1.25); /* Opera */
+  transform:scale(1.25);
+}
+.contacts{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color:white;
+  background-color: black;
+}

@@ -1,0 +1,255 @@
+/*.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+*/
+body {
+    padding: 0;
+    background-image: url("http://www.intrawallpaper.com/static/images/cool-wooden-wall-cool-twitter-backgrounds.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+  background-attachment: fixed;
+}
+#k, #l, #m{
+  border: none;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+/*.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}*/
+
+/* Custom page header */
+/*.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}*/
+/* Make the masthead heading the same height as the navigation */
+/*.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}*/
+
+/* Custom page footer */
+/*.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}*/
+
+/* Main marketing message and sign up button */
+/*.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}*/
+
+/* Supporting marketing content */
+/*.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}*/
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    /* Remove the padding we set earlier */
+    /*.header,
+    .marketing,
+    .footer {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    /* Space out the masthead */
+    /* Add a dark background color with a little bit see-through */
+    .navbar {
+        margin-bottom: 0;
+        background-color: #2d2d30;
+        border: 0;
+        font-size: 11px !important;
+        letter-spacing: 4px;
+        opacity: 0.9;
+    }
+
+    /* Add a gray color to all navbar links */
+    .navbar li a, .navbar .navbar-brand {
+        color: #d5d5d5 !important;
+    }
+
+    /* On hover, the links will turn white */
+    .navbar-nav li a:hover {
+        color: #fff !important;
+    }
+
+    /* The active link */
+    .navbar-nav li.active a {
+        color: #fff !important;
+        background-color: #29292c !important;
+    }
+
+    /* Remove border color from the collapsible button */
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+
+    /* Dropdown */
+    .open .dropdown-toggle {
+        color: #fff;
+        background-color: #555 !important;
+    }
+
+    /* Dropdown links */
+    /* On hover, the dropdown links will turn red */
+    .dropdown-menu li a:hover {
+        background-color: red !important;
+    }
+
+    .header {
+        margin-bottom: 30px;
+    }
+
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+        background-color: #101010;
+
+    }
+}
+
+.bg-info {
+    text-align: center;
+    font-family: novecento-bold;
+    background-color: darkslategray;
+    color: white;
+    text-shadow: #e75423;
+  box-shadow: 5px 5px black;
+
+}
+.bg-info:hover{
+  background-color: lightsteelblue;
+}
+
+.btn {
+    background-color: #374e0c;
+    border-color: #101010;
+    width: 120px;
+}
+
+.btn:hover {
+    background-color: #101010;
+}
+
+.dropdown-menu {
+    width: 170px;
+    background-color: #006666;
+}
+
+.dropdown-menu li a {
+    text-align: center;
+    color: white;
+}
+
+.panel{
+    border: 1px solid black;
+    background-color: #3c3c3c;
+    color: white;
+}
+.panel-heading{
+    font-size: 14px;
+    text-align: center;
+}
+
+.col-sm-4{
+    border: 1px solid black;
+}
+
+#incme, #incme1, #incme2{
+    height:380px;
+}
+#noborder{
+    border-color: transparent;
+}
+#me{
+    font-family: "Helvetica Neue Light";
+    font-size: 24px;
+    color: #8699a4;
+    word-spacing: 0.01mm;
+}
+
+#niche{
+  margin-top: 50px;
+}
+#colorBdlo{
+  color: white;
+}
+#bdloColor{
+  color: antiquewhite;
+}
+#colorKro{
+  color: plum;
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+}
+.thumbnail{
+  width: 350px;
+  height: 220px;
+  transition: width 1s, height 1s, transform 1s;
+  opacity: 0.8;
+}
+
+.thumbnail:hover {
+  height: 250px;
+  opacity: 1;
+  width: 380px;
+  transform: rotate(10deg);
+}
+
+#seedha{
+  position: absolute;
+  left: -125px;
+  top:300px;
+  transform:rotate(270deg);
+  height: 170px;
+  width: 450px;
+  z-index: -1;
+
+}
+@media only screen and (max-width: 750px) {
+  #seedha {
+    display: none;
+  }
+}
+#incMe{
+  width: 250px;
+  height:50px;
+  background-color: white;
+  border-radius:3px ;
+}
+#purchasePanel{
+  position: relative;
+  top: 60px;
+}
+#puInfo{
+  margin-top: 150px;
+}
+#bgCard{
+background-color: #23527c !important;
+}
